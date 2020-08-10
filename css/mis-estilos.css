@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(../img/bonito-borroso-brillante-1023953.jpg);
+    background-size:auto;
+    background-position: center;    
+}
+
+
+body{
+    background-image: url(../img/bloom-blooming-blossom-1172849.jpg);
+    background-size:cover;
+    background-position: center;
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{font-family: 'Cookie', cursive;
+font-size: 25px;}
+h1{font-family: 'Dancing Script', cursive;}
+h2, h3 {font-family: 'Marck Script', cursive;}
+
+
+@media (min-width:992px){
+    header img {width:120px; }
+}
